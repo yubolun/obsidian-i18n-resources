@@ -63,5 +63,18 @@
         "created_at": "2026-04-07T08:26:50.186Z",
         "updated_at": "2026-04-07T08:26:50.186Z",
         "type": "plugin"
+    },
+    {
+        "id": "gt5bbAQTn-fj4XLIf4RA9HwfYpac1-o1",
+        "plugin": "obsidian-style-settings",
+        "language": "zh-cn",
+        "version": "1.0.9",
+        "supported_versions": "1.0.9",
+        "title": "Style Settings",
+        "description": "提供用于调整主题、插件和代码段CSS变量的控件。",
+        "hash": "0dbd31070dbd31070dbd31070dbd3107",
+        "created_at": "2026-04-07T08:30:55.234Z",
+        "updated_at": "2026-04-07T08:30:55.234Z",
+        "type": "plugin"
     }
 ]
