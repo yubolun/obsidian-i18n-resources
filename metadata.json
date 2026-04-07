@@ -18,11 +18,11 @@
         "language": "zh-cn",
         "version": "1.2.4",
         "supported_versions": "1.2.4",
-        "title": "File Explorer Note Count",
+        "title": "文件浏览器笔记计数",
         "description": "文件浏览器笔记计数本地化与调整",
-        "hash": "70e4aa6d70e4aa6d70e4aa6d70e4aa6d",
+        "hash": "117107ac117107ac117107ac117107ac",
         "created_at": "2026-04-01T10:44:35.965Z",
-        "updated_at": "2026-04-01T11:00:34.254Z",
+        "updated_at": "2026-04-07T08:24:02.058Z",
         "type": "plugin"
     },
     {
