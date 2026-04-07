@@ -1,0 +1,516 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "css-editor",
+        "version": "2.0.0",
+        "title": "CSS Editor",
+        "description": "CSS Editor 汉化与微调",
+        "language": "zh-cn",
+        "supportedVersions": "1.13.3",
+        "author": "Machine丶Yu"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Enter to create",
+                    "target": "按回车键创建"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "search-input-container document-search-input",
+                    "target": "search-input-container document-search-input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save",
+                    "target": "保存"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Delete",
+                    "target": "删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle line wrap in the editor.",
+                    "target": "切换编辑器中的自动换行。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adjust the amount of spaces used for indentation.",
+                    "target": "调整用于缩进的空格数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show line numbers relative to cursor position.",
+                    "target": "显示相对于光标位置的相对行号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Ask before deleting a file.",
+                    "target": "删除文件前进行确认。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Line wrap",
+                    "target": "自动换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Indent size",
+                    "target": "缩进大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Relative line numbers",
+                    "target": "相对行号"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Confirm file deletion",
+                    "target": "确认删除文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "CSS snippet file name (ex: snippet.css)",
+                    "target": "CSS 代码片段文件名 (例如: snippet.css)"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Find or create a CSS snippet...",
+                    "target": "查找或创建 CSS 代码片段..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Rename CSS snippet",
+                    "target": "重命名 CSS 代码片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Delete CSS snippet",
+                    "target": "删除 CSS 代码片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Create CSS snippet",
+                    "target": "创建 CSS 代码片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Find... ",
+                    "target": "查找... "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete snippet",
+                    "target": "删除代码片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Previous\n⇧ F3",
+                    "target": "上一个\n⇧ F3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Next\nF3",
+                    "target": "下一个\nF3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Find all\n⌥ Enter",
+                    "target": "查找全部\n⌥ Enter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Exit search",
+                    "target": "退出搜索"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default",
+                    "target": "恢复默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to parse comment as CSS, skipping color detection:",
+                    "target": "未能将注释解析为 CSS，跳过颜色检测："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "\"···\"",
+                    "target": "\"···\""
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'ƒ'",
+                    "target": "'ƒ'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'○'",
+                    "target": "'○'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'◌'",
+                    "target": "'◌'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'𝑥'",
+                    "target": "'𝑥'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'𝐶'",
+                    "target": "'𝐶'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'𝑡'",
+                    "target": "'𝑡'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'∪'",
+                    "target": "'∪'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'□'",
+                    "target": "'□'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'🔑︎'",
+                    "target": "'🔑︎'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "'▢'",
+                    "target": "'▢'"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create CSS snippet",
+                    "target": "创建 CSS 代码片段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open quick switcher",
+                    "target": "打开快速切换器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete CSS snippet",
+                    "target": "删除 CSS 代码片段"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle the enabled/disabled state of CSS snippet",
+                    "target": "切换 CSS 代码片段的启用/禁用状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This action cannot be undone.",
+                    "target": "此操作无法撤销。"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`[CSS Editor]: ${message}`)",
+                    "target": "error(`[CSS 编辑器]: ${message}`)"
+                },
+                {
+                    "source": "setText(\"Rename CSS snippet\")",
+                    "target": "setText(\"重命名 CSS 代码片段\")"
+                },
+                {
+                    "source": "setPlaceholder(\"CSS snippet file name (ex: snippet.css)\")",
+                    "target": "setPlaceholder(\"CSS 代码片段文件名 (例如: snippet.css)\")"
+                },
+                {
+                    "source": "setText(\"Delete CSS snippet\")",
+                    "target": "setText(\"删除 CSS 代码片段\")"
+                },
+                {
+                    "source": "setText(`${matchIndex + 1} / ${count}`)",
+                    "target": "setText(`${matchIndex + 1} / ${count}`)"
+                },
+                {
+                    "source": "setTitle(\"Find... \")",
+                    "target": "setTitle(\"查找... \")"
+                },
+                {
+                    "source": "setTitle(\"Delete snippet\")",
+                    "target": "setTitle(\"删除代码片段\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Find or create a CSS snippet...\")",
+                    "target": "setPlaceholder(\"查找或创建 CSS 代码片段...\")"
+                },
+                {
+                    "source": "appendText(\"Enter to create\")",
+                    "target": "appendText(\"按回车键创建\")"
+                },
+                {
+                    "source": "setText(\"Create CSS snippet\")",
+                    "target": "setText(\"创建 CSS 代码片段\")"
+                },
+                {
+                    "source": "setName(\"Line wrap\")",
+                    "target": "setName(\"自动换行\")"
+                },
+                {
+                    "source": "setDesc(\"Toggle line wrap in the editor.\")",
+                    "target": "setDesc(\"切换编辑器中的自动换行。\")"
+                },
+                {
+                    "source": "setName(\"Indent size\")",
+                    "target": "setName(\"缩进大小\")"
+                },
+                {
+                    "source": "setDesc(\"Adjust the amount of spaces used for indentation.\")",
+                    "target": "setDesc(\"调整用于缩进的空格数量。\")"
+                },
+                {
+                    "source": "setTooltip(\"Restore default\")",
+                    "target": "setTooltip(\"恢复默认值\")"
+                },
+                {
+                    "source": "setName(\"Relative line numbers\")",
+                    "target": "setName(\"相对行号\")"
+                },
+                {
+                    "source": "setDesc(\"Show line numbers relative to cursor position.\")",
+                    "target": "setDesc(\"显示相对于光标位置的相对行号。\")"
+                },
+                {
+                    "source": "setName(\"Confirm file deletion\")",
+                    "target": "setName(\"确认删除文件\")"
+                },
+                {
+                    "source": "setDesc(\"Ask before deleting a file.\")",
+                    "target": "setDesc(\"删除文件前进行确认。\")"
+                },
+                {
+                    "source": "Notice(`\"${cssFile.name}\" was deleted.`)",
+                    "target": "Notice(`\"${cssFile.name}\" 已被删除。`)"
+                },
+                {
+                    "source": "Notice(\n          `\"${cssFile.name}\" is now ${isEnabled ? \"enabled\" : \"disabled\"}.`\n        )",
+                    "target": "Notice(\n          `\"${cssFile.name}\" 现在已${isEnabled ? \"启用\" : \"禁用\"}。`\n        )"
+                },
+                {
+                    "source": "Notice(`\"${file.name}\" was created.`)",
+                    "target": "Notice(`\"${file.name}\" 已创建。`)"
+                },
+                {
+                    "source": "text: \"insert\"",
+                    "target": "text: \"插入\""
+                },
+                {
+                    "source": "text: \"normal\"",
+                    "target": "text: \"常规\""
+                },
+                {
+                    "source": "text: \"visual\"",
+                    "target": "text: \"可视化\""
+                },
+                {
+                    "source": "name: \"map\"",
+                    "target": "name: \"映射\""
+                },
+                {
+                    "source": "name: \"imap\"",
+                    "target": "name: \"插入模式映射\""
+                },
+                {
+                    "source": "name: \"nmap\"",
+                    "target": "name: \"常规模式映射\""
+                },
+                {
+                    "source": "name: \"vmap\"",
+                    "target": "name: \"可视模式映射\""
+                },
+                {
+                    "source": "name: \"omap\"",
+                    "target": "name: \"操作符等待模式映射\""
+                },
+                {
+                    "source": "name: \"unmap\"",
+                    "target": "name: \"取消映射\""
+                },
+                {
+                    "source": "name: \"mapclear\"",
+                    "target": "name: \"清除所有映射\""
+                },
+                {
+                    "source": "name: \"nmapclear\"",
+                    "target": "name: \"清除常规模式映射\""
+                },
+                {
+                    "source": "name: \"vmapclear\"",
+                    "target": "name: \"清除可视模式映射\""
+                },
+                {
+                    "source": "name: \"imapclear\"",
+                    "target": "name: \"清除插入模式映射\""
+                },
+                {
+                    "source": "name: \"omapclear\"",
+                    "target": "name: \"清除操作符等待模式映射\""
+                },
+                {
+                    "source": "name: \"write\"",
+                    "target": "name: \"写入/保存\""
+                },
+                {
+                    "source": "name: \"undo\"",
+                    "target": "name: \"撤销\""
+                },
+                {
+                    "source": "name: \"redo\"",
+                    "target": "name: \"重做\""
+                },
+                {
+                    "source": "name: \"set\"",
+                    "target": "name: \"设置选项\""
+                },
+                {
+                    "source": "name: \"setlocal\"",
+                    "target": "name: \"设置本地选项\""
+                },
+                {
+                    "source": "name: \"setglobal\"",
+                    "target": "name: \"设置全局选项\""
+                },
+                {
+                    "source": "name: \"sort\"",
+                    "target": "name: \"排序\""
+                },
+                {
+                    "source": "name: \"substitute\"",
+                    "target": "name: \"替换\""
+                },
+                {
+                    "source": "name: \"startinsert\"",
+                    "target": "name: \"进入插入模式\""
+                },
+                {
+                    "source": "name: \"nohlsearch\"",
+                    "target": "name: \"清除搜索高亮\""
+                },
+                {
+                    "source": "name: \"yank\"",
+                    "target": "name: \"复制\""
+                },
+                {
+                    "source": "name: \"delmarks\"",
+                    "target": "name: \"删除标记\""
+                },
+                {
+                    "source": "name: \"marks\"",
+                    "target": "name: \"列出标记\""
+                },
+                {
+                    "source": "name: \"registers\"",
+                    "target": "name: \"显示寄存器\""
+                },
+                {
+                    "source": "name: \"vglobal\"",
+                    "target": "name: \"反向全局匹配执行\""
+                },
+                {
+                    "source": "name: \"delete\"",
+                    "target": "name: \"删除\""
+                },
+                {
+                    "source": "name: \"join\"",
+                    "target": "name: \"合并行\""
+                },
+                {
+                    "source": "name: \"normal\"",
+                    "target": "name: \"常规\""
+                },
+                {
+                    "source": "name: \"global\"",
+                    "target": "name: \"全局匹配执行\""
+                },
+                {
+                    "source": "text: `Are you sure you want to delete \"${this.file.name}\"?`",
+                    "target": "text: `确定要删除 \"${this.file.name}\" 吗？`"
+                },
+                {
+                    "source": "text: \"This action cannot be undone.\"",
+                    "target": "text: \"此操作无法撤销。\""
+                },
+                {
+                    "source": "name: \"Create CSS snippet\"",
+                    "target": "name: \"创建 CSS 代码片段\""
+                },
+                {
+                    "source": "name: \"Open quick switcher\"",
+                    "target": "name: \"打开快速切换器\""
+                },
+                {
+                    "source": "name: \"Delete CSS snippet\"",
+                    "target": "name: \"删除 CSS 代码片段\""
+                },
+                {
+                    "source": "name: \"Toggle the enabled/disabled state of CSS snippet\"",
+                    "target": "name: \"切换 CSS 代码片段的启用/禁用状态\""
+                }
+            ]
+        }
+    }
+}
