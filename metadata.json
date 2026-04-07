@@ -37,5 +37,18 @@
         "created_at": "2026-04-07T08:20:25.162Z",
         "updated_at": "2026-04-07T08:20:25.162Z",
         "type": "plugin"
+    },
+    {
+        "id": "jncL6z8LyQJki85-8ZWFpRj-OyJ3r5sz",
+        "plugin": "mysnippets-plugin",
+        "language": "zh-cn",
+        "version": "1.2.3",
+        "supported_versions": "1.2.3",
+        "title": "MySnippets",
+        "description": "MySnippets是一个插件，它添加了一个状态栏菜单，允许用户快速打开和关闭他们的代码片段🖌.",
+        "hash": "5fb049d35fb049d35fb049d35fb049d3",
+        "created_at": "2026-04-07T08:25:53.848Z",
+        "updated_at": "2026-04-07T08:25:53.848Z",
+        "type": "plugin"
     }
 ]
