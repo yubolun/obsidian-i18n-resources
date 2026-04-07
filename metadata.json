@@ -154,5 +154,18 @@
         "created_at": "2026-04-07T15:43:06.519Z",
         "updated_at": "2026-04-07T15:43:06.519Z",
         "type": "plugin"
+    },
+    {
+        "id": "XvD_p4h2Ty09qK8hKdORcyKlzkAPcV0a",
+        "plugin": "manual-sorting",
+        "language": "zh-cn",
+        "version": "3.2.4",
+        "supported_versions": "3.2.4",
+        "title": "Manual Sorting",
+        "description": "手动排序汉化与微调",
+        "hash": "18a70eb518a70eb518a70eb518a70eb5",
+        "created_at": "2026-04-07T18:24:56.229Z",
+        "updated_at": "2026-04-07T18:24:56.229Z",
+        "type": "plugin"
     }
 ]
