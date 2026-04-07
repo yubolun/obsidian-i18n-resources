@@ -89,5 +89,18 @@
         "created_at": "2026-04-07T09:12:53.767Z",
         "updated_at": "2026-04-07T09:12:53.767Z",
         "type": "plugin"
+    },
+    {
+        "id": "5EzYkluQaKGyOHspwZkDJKQyd4xPAIUG",
+        "plugin": "AnuPpuccin",
+        "language": "zh-cn",
+        "version": "1.5.0",
+        "supported_versions": "1.5.0",
+        "title": "AnuPpuccin",
+        "description": "AnuPpuccin 汉化与微调",
+        "hash": "53867d0b53867d0b53867d0b53867d0b",
+        "created_at": "2026-04-07T10:01:35.684Z",
+        "updated_at": "2026-04-07T10:01:35.684Z",
+        "type": "theme"
     }
 ]
