@@ -50,5 +50,18 @@
         "created_at": "2026-04-07T08:25:53.848Z",
         "updated_at": "2026-04-07T08:25:53.848Z",
         "type": "plugin"
+    },
+    {
+        "id": "fqy1l7eb7S5WCv-IFCJtqrShHfbLHaOM",
+        "plugin": "obsidian-markdown-formatting-assistant-plugin",
+        "language": "zh-cn",
+        "version": "0.4.1",
+        "supported_versions": "0.4.1",
+        "title": "Markdown Formatting Assistant",
+        "description": "该插件为Markdown、HTML和Colors提供了一个简单的编辑器，此外还有一个命令界面。命令界面有助于加快工作流程。",
+        "hash": "4d19aa9e4d19aa9e4d19aa9e4d19aa9e",
+        "created_at": "2026-04-07T08:26:50.186Z",
+        "updated_at": "2026-04-07T08:26:50.186Z",
+        "type": "plugin"
     }
 ]
