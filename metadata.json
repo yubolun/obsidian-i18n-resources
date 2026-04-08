@@ -180,5 +180,18 @@
         "created_at": "2026-04-08T03:44:00.342Z",
         "updated_at": "2026-04-08T03:44:00.342Z",
         "type": "plugin"
+    },
+    {
+        "id": "Crmbg72U_eHjOjL-AgmTj98RxnFi8vXJ",
+        "plugin": "Border",
+        "language": "zh-cn",
+        "version": "1.13.5",
+        "supported_versions": "1.13.5",
+        "title": "Border",
+        "description": "Border主题中文调整",
+        "hash": "10510ffb10510ffb10510ffb10510ffb",
+        "created_at": "2026-04-08T06:24:58.208Z",
+        "updated_at": "2026-04-08T06:24:58.208Z",
+        "type": "theme"
     }
 ]
