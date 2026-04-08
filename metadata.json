@@ -167,5 +167,18 @@
         "created_at": "2026-04-07T18:24:56.229Z",
         "updated_at": "2026-04-07T18:24:56.229Z",
         "type": "plugin"
+    },
+    {
+        "id": "6glc45TH8PmDLr_mGf98hu2p6cXLeBBy",
+        "plugin": "at-symbol-linking",
+        "language": "zh-cn",
+        "version": "2.1.0",
+        "supported_versions": "2.1.0",
+        "title": "@ Symbol Linking",
+        "description": "@ 符号链接汉化与微调",
+        "hash": "609f2447609f2447609f2447609f2447",
+        "created_at": "2026-04-08T03:44:00.342Z",
+        "updated_at": "2026-04-08T03:44:00.342Z",
+        "type": "plugin"
     }
 ]
