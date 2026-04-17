@@ -206,5 +206,18 @@
         "created_at": "2026-04-17T07:33:46.117Z",
         "updated_at": "2026-04-17T07:33:46.117Z",
         "type": "plugin"
+    },
+    {
+        "id": "e9dcM6yaOxYsa7bYOg8Bdpd8uyW1-RRT",
+        "plugin": "cmdr",
+        "language": "zh-cn",
+        "version": "0.5.5",
+        "supported_versions": "0.5.5",
+        "title": "Commander",
+        "description": "Commander 汉化与微调",
+        "hash": "79a4273179a4273179a4273179a42731",
+        "created_at": "2026-04-17T07:38:07.627Z",
+        "updated_at": "2026-04-17T07:38:07.627Z",
+        "type": "plugin"
     }
 ]
