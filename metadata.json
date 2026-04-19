@@ -258,5 +258,18 @@
         "created_at": "2026-04-19T05:45:38.952Z",
         "updated_at": "2026-04-19T05:45:38.952Z",
         "type": "plugin"
+    },
+    {
+        "id": "D_0FrmPLmpB7R2QmXtNel2rC08DA1njt",
+        "plugin": "copilot",
+        "language": "zh-cn",
+        "version": "3.2.7",
+        "supported_versions": "3.2.7",
+        "title": "Copilot",
+        "description": "Copilot Localization & Tweaks",
+        "hash": "534e188c534e188c534e188c534e188c",
+        "created_at": "2026-04-19T06:27:20.153Z",
+        "updated_at": "2026-04-19T06:27:20.153Z",
+        "type": "plugin"
     }
 ]
