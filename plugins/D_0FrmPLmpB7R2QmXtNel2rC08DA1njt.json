@@ -2470,7 +2470,7 @@
                     "type": "ObjectProperty",
                     "name": "label",
                     "source": "Enter",
-                    "target": "进入"
+                    "target": "Enter"
                 },
                 {
                     "type": "ObjectProperty",
