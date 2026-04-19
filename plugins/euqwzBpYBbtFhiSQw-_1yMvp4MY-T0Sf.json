@@ -22,7 +22,7 @@
                     "type": "CallExpression",
                     "name": "createDiv",
                     "source": "search-input-container document-search-input",
-                    "target": "search-input-container document-search-input"
+                    "target": "搜索输入容器文档搜索输入"
                 },
                 {
                     "type": "CallExpression",
