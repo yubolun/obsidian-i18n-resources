@@ -1,0 +1,188 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "open-tab-settings",
+        "version": "2.0.0",
+        "title": "Open Tab Settings",
+        "description": "Open Tab Settings Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.0.1",
+        "author": "MachineYu"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "modClickBehavior onChange",
+                    "target": "mod更改时的点击行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Open files in a new tab by default.",
+                    "target": "默认在新标签页中打开文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If a tab is already open, switch to it instead of re-opening it.",
+                    "target": "如果标签页已打开，则直接切换到该标签页，而非重新打开。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to switch to already open file even if its in a split pane or popout window",
+                    "target": "是否切换到已打开的文件，即使它位于分栏或弹出窗口中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Place new tabs...",
+                    "target": "新标签页的放置位置..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When the workspace is split, prefer to open new tabs...",
+                    "target": "当工作区分栏时，优先将新标签页打开在..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "On Ctrl/Cmd/middle click open links...",
+                    "target": "Ctrl/Cmd/中键点击链接时..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Always open in new tab",
+                    "target": "始终在新标签页中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Prevent duplicate tabs",
+                    "target": "防止重复标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deduplicate across tab groups",
+                    "target": "跨标签页组去重"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Focus explicit new tabs",
+                    "target": "聚焦显式新建标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mod click behavior",
+                    "target": "调整点击行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in same tab",
+                    "target": "在当前标签页打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in duplicate tab",
+                    "target": "在复制标签页打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in opposite tab group",
+                    "target": "在对侧标签组打开"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tab",
+                    "source": "In new tab",
+                    "target": "在新标签页中"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Always open in new tab\")",
+                    "target": "setName(\"Always open in new tab\")"
+                },
+                {
+                    "source": "setDesc(\"Open files in a new tab by default.\")",
+                    "target": "setDesc(\"Open files in a new tab by default.\")"
+                },
+                {
+                    "source": "setName(\"Prevent duplicate tabs\")",
+                    "target": "setName(\"Prevent duplicate tabs\")"
+                },
+                {
+                    "source": "setDesc(\"If a tab is already open, switch to it instead of re-opening it.\")",
+                    "target": "setDesc(\"If a tab is already open, switch to it instead of re-opening it.\")"
+                },
+                {
+                    "source": "setName(\"Deduplicate across tab groups\")",
+                    "target": "setName(\"Deduplicate across tab groups\")"
+                },
+                {
+                    "source": "setDesc(\"Whether to switch to already open file even if its in a split pane or popout window\")",
+                    "target": "setDesc(\"Whether to switch to already open file even if its in a split pane or popout window\")"
+                },
+                {
+                    "source": "setName(\"Focus explicit new tabs\")",
+                    "target": "setName(\"Focus explicit new tabs\")"
+                },
+                {
+                    "source": "setDesc(\"Place new tabs...\")",
+                    "target": "setDesc(\"Place new tabs...\")"
+                },
+                {
+                    "source": "setDesc(\"When the workspace is split, prefer to open new tabs...\")",
+                    "target": "setDesc(\"When the workspace is split, prefer to open new tabs...\")"
+                },
+                {
+                    "source": "setName(\"Mod click behavior\")",
+                    "target": "setName(\"Mod click behavior\")"
+                },
+                {
+                    "source": "setDesc(\"On Ctrl/Cmd/middle click open links...\")",
+                    "target": "setDesc(\"On Ctrl/Cmd/middle click open links...\")"
+                },
+                {
+                    "source": "log(\"modClickBehavior onChange\")",
+                    "target": "log(\"modClickBehavior onChange\")"
+                },
+                {
+                    "source": "setTitle(\"Open in same tab\")",
+                    "target": "setTitle(\"Open in same tab\")"
+                },
+                {
+                    "source": "setTitle(\"Open in duplicate tab\")",
+                    "target": "setTitle(\"Open in duplicate tab\")"
+                },
+                {
+                    "source": "setTitle(\"Open in opposite tab group\")",
+                    "target": "setTitle(\"Open in opposite tab group\")"
+                },
+                {
+                    "source": "name:`Toggle ${n}`",
+                    "target": "name:`Toggle ${n}`"
+                },
+                {
+                    "source": "name:`Enable ${n}`",
+                    "target": "name:`Enable ${n}`"
+                },
+                {
+                    "source": "name:`Disable ${n}`",
+                    "target": "name:`Disable ${n}`"
+                }
+            ]
+        }
+    }
+}
