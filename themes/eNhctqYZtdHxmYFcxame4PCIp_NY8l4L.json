@@ -1,0 +1,44 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "theme": "Things 3",
+        "language": "zh-cn",
+        "version": "2.0.0",
+        "supportedVersions": "2.6.14",
+        "title": "Things 3",
+        "description": "Things 3 Localization & Tweaks",
+        "author": "MachineYu"
+    },
+    "dict": [
+        {
+            "type": "name",
+            "source": "Things 3 Settings",
+            "target": "Things 3 主题设置"
+        },
+        {
+            "type": "title",
+            "source": "Use fully black background on Phones",
+            "target": "在手机上使用纯黑背景"
+        },
+        {
+            "type": "title",
+            "source": "Use fully black background on Tablets",
+            "target": "在平板上使用纯黑背景"
+        },
+        {
+            "type": "title",
+            "source": "Dataview rows in no-wrap format",
+            "target": "Dataview 行以不换行格式显示"
+        },
+        {
+            "type": "title",
+            "source": "Enable Tables & Dataview styling",
+            "target": "启用表格与 Dataview 样式"
+        },
+        {
+            "type": "title",
+            "source": "Tab close button on the left",
+            "target": "标签页关闭按钮置于左侧"
+        }
+    ]
+}
