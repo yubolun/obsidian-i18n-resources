@@ -323,5 +323,18 @@
         "created_at": "2026-04-21T13:54:38.761Z",
         "updated_at": "2026-04-21T13:54:38.761Z",
         "type": "theme"
+    },
+    {
+        "id": "6zjbNbxOf0gxBB1Pi8okH-_zwIue500w",
+        "plugin": "Maple",
+        "language": "zh-cn",
+        "version": "1.4.11",
+        "supported_versions": "1.4.11",
+        "title": "Maple",
+        "description": "Maple Localization & Tweaks",
+        "hash": "7f4997867f4997867f4997867f499786",
+        "created_at": "2026-04-21T14:02:09.862Z",
+        "updated_at": "2026-04-21T14:02:09.862Z",
+        "type": "theme"
     }
 ]
