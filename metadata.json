@@ -336,5 +336,18 @@
         "created_at": "2026-04-21T14:02:09.862Z",
         "updated_at": "2026-04-21T14:02:09.862Z",
         "type": "theme"
+    },
+    {
+        "id": "9AGhB-841htDiyT9SPePXbFmQjXCVC_7",
+        "plugin": "Minimal",
+        "language": "zh-cn",
+        "version": "8.1.7",
+        "supported_versions": "8.1.7",
+        "title": "Minimal",
+        "description": "Minimal Localization & Tweaks",
+        "hash": "3b541e183b541e183b541e183b541e18",
+        "created_at": "2026-04-21T14:02:17.981Z",
+        "updated_at": "2026-04-21T14:02:17.981Z",
+        "type": "theme"
     }
 ]
