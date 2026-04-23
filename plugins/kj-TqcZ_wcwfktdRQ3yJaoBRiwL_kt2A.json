@@ -1,0 +1,206 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "oz-clear-unused-images",
+        "version": "2.0.0",
+        "title": "Clear Unused Images",
+        "description": "Clear Unused Images Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": "Machine丶YU"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Delete Permanently",
+                    "target": "永久删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Move to Obsidian Trash",
+                    "target": "移至 Obsidian 回收站"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Clear Unused Images plugin loaded...",
+                    "target": "清理未使用图片插件已加载..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Clear Unused Images plugin unloaded...",
+                    "target": "清理未使用图片插件已卸载..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on if you want Ribbon Icon for clearing the images.",
+                    "target": "开启此项，可为清理图片功能添加一个 Ribbon 图标。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn off if you dont want to view the delete logs Modal to pop up after deletion is completed. It wont appear if no image is deleted",
+                    "target": "关闭此项，清理完成后将不再弹出显示删除日志的模态窗口。如果未删除任何图片，该窗口也不会出现。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select where you want images to be moved once they are deleted",
+                    "target": "选择删除后图片的移动位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Provide the FULL path of the folder names (Case Sensitive) divided by comma (,) to be excluded from clearing. \n\t\t\t\t\ti.e. For images under Personal/Files/Zodiac -> Personal/Files/Zodiac should be used for exclusion",
+                    "target": "提供要排除清理的文件夹完整路径（区分大小写），多个路径用逗号（,）分隔。\n\t\t\t\t\t例如：要排除 Personal/Files/Zodiac 下的图片，应填写 Personal/Files/Zodiac"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on this option if you want to also exclude all subfolders of the folder paths provided above.",
+                    "target": "开启此项，将同时排除上述文件夹路径下的所有子文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ribbon Icon",
+                    "target": "Ribbon 图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Delete Logs",
+                    "target": "删除日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deleted Image Destination",
+                    "target": "已删除图片的目标位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded Folder Full Paths",
+                    "target": "排除文件夹的完整路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Exclude Subfolders",
+                    "target": "排除子文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear Unused Images",
+                    "target": "清理未使用的图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear Unused Attachments",
+                    "target": "清理未使用的附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Clear Images Settings",
+                    "target": "清理图片设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Clear Unused Images - Logs",
+                    "target": "清理未使用图片 - 日志"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Close",
+                    "target": "关闭"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Ribbon Icon\")",
+                    "target": "setName(\"Ribbon Icon\")"
+                },
+                {
+                    "source": "setDesc(\"Turn on if you want Ribbon Icon for clearing the images.\")",
+                    "target": "setDesc(\"Turn on if you want Ribbon Icon for clearing the images.\")"
+                },
+                {
+                    "source": "setName(\"Delete Logs\")",
+                    "target": "setName(\"Delete Logs\")"
+                },
+                {
+                    "source": "setDesc(\"Turn off if you dont want to view the delete logs Modal to pop up after deletion is completed. It wont appear if no image is deleted\")",
+                    "target": "setDesc(\"Turn off if you dont want to view the delete logs Modal to pop up after deletion is completed. It wont appear if no image is deleted\")"
+                },
+                {
+                    "source": "setName(\"Deleted Image Destination\")",
+                    "target": "setName(\"Deleted Image Destination\")"
+                },
+                {
+                    "source": "setDesc(\"Select where you want images to be moved once they are deleted\")",
+                    "target": "setDesc(\"Select where you want images to be moved once they are deleted\")"
+                },
+                {
+                    "source": "setName(\"Excluded Folder Full Paths\")",
+                    "target": "setName(\"Excluded Folder Full Paths\")"
+                },
+                {
+                    "source": "setDesc(\"Provide the FULL path of the folder names (Case Sensitive) divided by comma (,) to be excluded from clearing. \\n\\t\\t\\t\\t\\ti.e. For images under Personal/Files/Zodiac -> Personal/Files/Zodiac should be used for exclusion\")",
+                    "target": "setDesc(\"Provide the FULL path of the folder names (Case Sensitive) divided by comma (,) to be excluded from clearing. \\n\\t\\t\\t\\t\\ti.e. For images under Personal/Files/Zodiac -> Personal/Files/Zodiac should be used for exclusion\")"
+                },
+                {
+                    "source": "setName(\"Exclude Subfolders\")",
+                    "target": "setName(\"Exclude Subfolders\")"
+                },
+                {
+                    "source": "setDesc(\"Turn on this option if you want to also exclude all subfolders of the folder paths provided above.\")",
+                    "target": "setDesc(\"Turn on this option if you want to also exclude all subfolders of the folder paths provided above.\")"
+                },
+                {
+                    "source": "log(\"File not referenced but excluded: \"+n.path):(\".trash\"===e?(yield o.vault.trash(n,!1),i+=\"[+] Moved to Obsidian Trash: \"+n.path+\"</br>\")",
+                    "target": "log(\"File not referenced but excluded: \"+n.path):(\".trash\"===e?(yield o.vault.trash(n,!1),i+=\"[+] Moved to Obsidian Trash: \"+n.path+\"</br>\")"
+                },
+                {
+                    "source": "Notice(`All ${\"image\"===i?\"images\":\"attachments\"} are used. Nothing was deleted.`)",
+                    "target": "Notice(`All ${\"image\"===i?\"images\":\"attachments\"} are used. Nothing was deleted.`)"
+                },
+                {
+                    "source": "log(\"Clear Unused Images plugin loaded...\")",
+                    "target": "log(\"Clear Unused Images plugin loaded...\")"
+                },
+                {
+                    "source": "log(\"Clear Unused Images plugin unloaded...\")",
+                    "target": "log(\"Clear Unused Images plugin unloaded...\")"
+                },
+                {
+                    "source": "text:\"Clear Images Settings\"",
+                    "target": "text:\"Clear Images Settings\""
+                },
+                {
+                    "source": "text:\"Clear Unused Images - Logs\"",
+                    "target": "text:\"Clear Unused Images - Logs\""
+                },
+                {
+                    "source": "name:\"Clear Unused Images\"",
+                    "target": "name:\"Clear Unused Images\""
+                },
+                {
+                    "source": "name:\"Clear Unused Attachments\"",
+                    "target": "name:\"Clear Unused Attachments\""
+                }
+            ]
+        }
+    }
+}
