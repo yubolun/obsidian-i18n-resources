@@ -388,5 +388,18 @@
         "created_at": "2026-04-23T03:26:03.454Z",
         "updated_at": "2026-04-23T03:26:03.454Z",
         "type": "plugin"
+    },
+    {
+        "id": "LpHDovanaZNI4gf5oUdCGddh8Q7QqkeW",
+        "plugin": "obsidian-minimal-settings",
+        "language": "zh-cn",
+        "version": "8.2.1",
+        "supported_versions": "8.2.1",
+        "title": "Minimal Theme Settings",
+        "description": "Minimal Theme Settings Localization & Tweaks",
+        "hash": "31bf1d6631bf1d6631bf1d6631bf1d66",
+        "created_at": "2026-04-23T03:26:13.522Z",
+        "updated_at": "2026-04-23T03:26:13.522Z",
+        "type": "plugin"
     }
 ]
